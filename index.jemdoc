@@ -1,0 +1,48 @@
+# jemdoc: menu{MENU}{index.html}, nofooter  
+==Hong Liu
+
+~~~
+{}{img_left}{photos/ppp.png}{alt text}{120}{160}
+Undergraduate,\n Department of Electronic Engineering, \n  Tsinghua University \n
+E-mail: h-l17 \[@\] mails \[DOT\] tsinghua \[DOT\] edu \[DOT\] cn \n
+Google Scholar: [https://scholar.google.com/citations?user=BUc2uq0AAAAJ https://scholar.google.com/citations?user=BUc2uq0AAAAJ]
+~~~
+
+== About me
+I am an undergraduate student majoring Electronic Engineering at Tsinghua University. I'm fortunate to work with [http://ise.thss.tsinghua.edu.cn/~mlong/ Prof. Mingsheng Long] and [http://ai.stanford.edu/~tengyuma/ Prof. Tengyu Ma]. Please click [cv.pdf here] to view my cv. \n
+
+My current interests include transfer learning and deep learning. I'm working on algorithms and theories for more efficient knowledge transfer. I have also been working on domain adaptation algorithms and their applications. \n
+
+Knowledge transfer is a interesting and charming topic. If you are also interested in this, feel free to contact with me.
+
+== Publications 
+=== Conferennce Proceedings
+. [papers/neurips_2020.pdf Learning to Adapt to Evolving Domains] \n
+*Hong Liu*, Mingsheng Long, Jianmin Wang, Yu Wang \n
+NeurIPS 2020 \n
+. [papers/liu19b.pdf Transferable Adversarial Training: A General Approach to Adapting Deep Classifiers] \n
+*Hong Liu*, Mingsheng Long, Jianmin Wang, Michael I. Jordan \n
+ICML 2019, (*Long Talk*) \n
+. [papers/Liu_Separate_to_Adapt_Open_Set_Domain_Adaptation_via_Progressive_Separation_CVPR_2019_paper.pdf Separate to Adapt: Open Set Domain Adaptation via Progressive Separation] \n
+*Hong Liu*, Zhangjie Cao, Mingsheng Long, Jianmin Wang, Qiang Yang \n
+CVPR 2019 \n
+
+=== Preprints
+. [https://arxiv.org/abs/1909.12031 Towards Understanding the Transferability of Deep Feature Representations]\n
+*Hong Liu*, Mingsheng Long, Jianmin Wang, Michael I. Jordan \n
+arxiv preprint \n
+. Meta-learning Transferable Representations with a Single Target Domain \n
+*Hong Liu*, Jeff Z. HaoChen, Colin Wei, Tengyu Ma \n
+arxiv preprint \n
+
+== Selected Awards and Honors
+- National Scholarship, awarded for academic excellence, Ministry of Education
+- Nanxiang Jiang Scholarship, the best award for juniors in Tsinghua
+- 3rd prize, ECCV Visual Domain Adaptation Challenge (2018)
+- 1st prize, China Undergraduate Physics Competition (2018)
+- 2nd prize, China Math Olympiad (2016)
+
+== Professional Services
+Reviewing
+- Journal: TPAMI, and TIP
+- Conference: ICML, NeurIPS, ICLR, and AAAI

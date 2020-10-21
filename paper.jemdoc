@@ -1,0 +1,21 @@
+# jemdoc: menu{MENU}{paper.html}, nofooter  
+== Publications
+
+=== Conferennce Proceedings
+. [papers/neurips_2020.pdf Learning to Adapt to Evolving Domains] \n
+*Hong Liu*, Mingsheng Long, Jianmin Wang, Yu Wang \n
+NeurIPS 2020 \n
+. [papers/liu19b.pdf Transferable Adversarial Training: A General Approach to Adapting Deep Classifiers] \n
+*Hong Liu*, Mingsheng Long, Jianmin Wang, Michael I. Jordan \n
+ICML 2019, (*Long Talk*) \n
+. [papers/Liu_Separate_to_Adapt_Open_Set_Domain_Adaptation_via_Progressive_Separation_CVPR_2019_paper.pdf Separate to Adapt: Open Set Domain Adaptation via Progressive Separation] \n
+*Hong Liu*, Zhangjie Cao, Mingsheng Long, Jianmin Wang, Qiang Yang \n
+CVPR 2019 \n
+
+=== Preprints
+. [https://arxiv.org/abs/1909.12031 Towards Understanding the Transferability of Deep Feature Representations]\n
+*Hong Liu*, Mingsheng Long, Jianmin Wang, Michael I. Jordan \n
+arxiv preprint \n
+. Meta-learning Transferable Representations with a Single Target Domain \n
+*Hong Liu*, Jeff Z. HaoChen, Colin Wei, Tengyu Ma \n
+arxiv preprint \n
