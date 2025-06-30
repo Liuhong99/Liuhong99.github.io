@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Hong Liu"
 title_separator          : "-"
 name                     : &name "Hong Liu"
-description              : &description "Ph.D. student in Computer Science at Stanford University"
+description              : &description "Co-founder of Voyage AI"
 url                      : https://LiuHong99.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "LiuHong99/LiuHong99.github.io"
@@ -81,7 +81,7 @@ analytics:
 author:
   name             : "Hong Liu"
   avatar           : "hong.jpg"
-  bio              : "Ph.D. student in Computer Science at Stanford University"
+  bio              : "Cofounder of Voyage AI"
   location         : "Stanford, California"
   employer         :
   googlescholar    : "https://scholar.google.com/citations?user=BUc2uq0AAAAJ"

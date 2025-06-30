@@ -14,15 +14,15 @@ redirect_from:
 I co-founded [Voyage AI](https://www.voyageai.com) and led its research to develop the best embeddings models and rerankers for semantic search and information retrieval in the industry. I did my PhD at Stanford University, affiliated with [Stanford AI Lab](https://ai.stanford.edu) and [Stanford NLP group](https://nlp.stanford.edu). My research interests broadly lie in language models, multimodal information retrieval, and reasoning.
 
 ## News
-
+Checkout our latest project [MoCa](https://haon-chen.github.io/MoCa/), which scales multimodal embedding models with unlabeled interleaved multimodal data. 
 
 
 ## Language Models
 
-<b>[Chain of Thought Empowers Transformers to Solve Inherently Serial Problems](https://arxiv.org/abs/2402.12875)</b> <br> Zhiyuan Li, Hong Liu, Denny Zhou, Tengyu Ma. <br> <i>Arxiv 2402.12875.</i> [[Twitter]](https://x.com/denny_zhou/status/1835761801453306089)
+<b>[Chain of Thought Empowers Transformers to Solve Inherently Serial Problems](https://arxiv.org/abs/2402.12875)</b> <br> Zhiyuan Li, Hong Liu, Denny Zhou, Tengyu Ma. <br> <i>ICLR 2024</i> [[Twitter]](https://x.com/denny_zhou/status/1835761801453306089)
 
 
-<b>[Sophia: A Scalable Stochastic Second-order Optimizer for Language Model Pre-training](https://arxiv.org/pdf/2305.14342)</b> <br> Hong Liu, Zhiyuan Li, David Hall, Percy Liang, Tengyu Ma. <br> <i>Arxiv 2305.14342.</i> [[Code]](https://github.com/Liuhong99/Sophia) [[Twitter]](https://twitter.com/tengyuma/status/1661412995430219786)
+<b>[Sophia: A Scalable Stochastic Second-order Optimizer for Language Model Pre-training](https://arxiv.org/pdf/2305.14342)</b> <br> Hong Liu, Zhiyuan Li, David Hall, Percy Liang, Tengyu Ma. <br> <i>ICLR 2024</i> [[Code]](https://github.com/Liuhong99/Sophia) [[Twitter]](https://twitter.com/tengyuma/status/1661412995430219786)
 
 <b>[Same Pre-training Loss, Better Downstream: Implicit Bias Matters for Language Models](https://arxiv.org/pdf/2210.14199)</b> <br> Hong Liu, Sang Michael Xie, Zhiyuan Li, Tengyu Ma. <br><i>International Conference on Machine Learning (ICML), 2023, <b>Oral</b>.</i> [[Code]](https://github.com/Liuhong99/implicitbiasmlmcode) [[Twitter]](https://twitter.com/tengyuma/status/1593328919624617985) 
 
