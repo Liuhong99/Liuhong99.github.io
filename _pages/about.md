@@ -19,6 +19,8 @@ Checkout our latest project [MoCa](https://haon-chen.github.io/MoCa/), which sca
 
 ## Language Models
 
+<b>[MoCa: Modality-aware Continual Pre-training Makes Better Bidirectional Multimodal Embeddings](https://arxiv.org/abs/2506.23115)</b> <br> Haonan Chen, Hong Liu, Yuping Luo, Liang Wang, Nan Yang, Furu Wei, Zhicheng Dou. <br> <i>ArXiv 2506.23115</i> [[Code]](https://github.com/haon-chen/MoCa)[[Twitter]]()
+
 <b>[Chain of Thought Empowers Transformers to Solve Inherently Serial Problems](https://arxiv.org/abs/2402.12875)</b> <br> Zhiyuan Li, Hong Liu, Denny Zhou, Tengyu Ma. <br> <i>ICLR 2024</i> [[Twitter]](https://x.com/denny_zhou/status/1835761801453306089)
 
 
