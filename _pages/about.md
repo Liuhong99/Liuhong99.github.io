@@ -14,6 +14,7 @@ redirect_from:
 I co-founded [Voyage AI](https://www.voyageai.com) and led its research to develop the best embeddings models and rerankers for semantic search and information retrieval in the industry. I did my PhD at Stanford University, affiliated with [Stanford AI Lab](https://ai.stanford.edu) and [Stanford NLP group](https://nlp.stanford.edu). My research interests broadly lie in language models, pre-training, multimodal, and reasoning.
 
 ## News
+Checkout our latest paper [Synthetic bootstrapped pretraining](https://arxiv.org/abs/2509.15248), which is the first synthetic pre-training method that doesn't rely on teacher distillation. 
 
 Checkout our latest project [MoCa](https://haon-chen.github.io/MoCa/), which scales multimodal embedding models with unlabeled interleaved multimodal data. 
 
