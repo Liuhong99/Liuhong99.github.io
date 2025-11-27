@@ -11,15 +11,18 @@ redirect_from:
 
 
 
-I co-founded [Voyage AI](https://www.voyageai.com) and led its research to develop the best embeddings models and rerankers for semantic search and information retrieval in the industry. I did my PhD at Stanford University, affiliated with [Stanford AI Lab](https://ai.stanford.edu) and [Stanford NLP group](https://nlp.stanford.edu). My research interests broadly lie in language models, multimodal information retrieval, and reasoning.
+I co-founded [Voyage AI](https://www.voyageai.com) and led its research to develop the best embeddings models and rerankers for semantic search and information retrieval in the industry. I did my PhD at Stanford University, affiliated with [Stanford AI Lab](https://ai.stanford.edu) and [Stanford NLP group](https://nlp.stanford.edu). My research interests broadly lie in language models, pre-training, multimodal, and reasoning.
 
 ## News
+
 Checkout our latest project [MoCa](https://haon-chen.github.io/MoCa/), which scales multimodal embedding models with unlabeled interleaved multimodal data. 
 
 
 ## Language Models
 
-<b>[MoCa: Modality-aware Continual Pre-training Makes Better Bidirectional Multimodal Embeddings](https://arxiv.org/abs/2506.23115)</b> <br> Haonan Chen, Hong Liu, Yuping Luo, Liang Wang, Nan Yang, Furu Wei, Zhicheng Dou. <br> <i>ArXiv 2506.23115</i> [[Code]](https://github.com/haon-chen/MoCa)[[Twitter]]()
+<b>[Synthetic bootstrapped pretraining](https://arxiv.org/abs/2509.15248)</b> <br> Zitong Yang, Aonan Zhang, Hong Liu, Tatsunori Hashimoto, Emmanuel Candès, Chong Wang, Ruoming Pang. <br> <i>ArXiv 2509.15248</i> [[Twitter]](https://x.com/zitongyang0/status/1970129028536484089?s=46)
+
+<b>[MoCa: Modality-aware Continual Pre-training Makes Better Bidirectional Multimodal Embeddings](https://arxiv.org/abs/2506.23115)</b> <br> Haonan Chen, Hong Liu, Yuping Luo, Liang Wang, Nan Yang, Furu Wei, Zhicheng Dou. <br> <i>ArXiv 2506.23115</i> [[Code]](https://github.com/haon-chen/MoCa)[[Twitter]](https://x.com/hongliu9903/status/1940084337497793014?s=46)
 
 <b>[Chain of Thought Empowers Transformers to Solve Inherently Serial Problems](https://arxiv.org/abs/2402.12875)</b> <br> Zhiyuan Li, Hong Liu, Denny Zhou, Tengyu Ma. <br> <i>ICLR 2024</i> [[Twitter]](https://x.com/denny_zhou/status/1835761801453306089)
 
