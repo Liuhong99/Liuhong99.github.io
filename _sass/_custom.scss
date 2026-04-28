@@ -1,0 +1,258 @@
+/* ==========================================================================
+   Custom overrides — modernized look on top of Minimal Mistakes
+   ========================================================================== */
+
+$accent-color: #b6533c;        // warm, restrained accent (Anthropic-ish clay)
+$accent-color-soft: #f7efe9;
+$ink: #1f2328;
+$muted: #57606a;
+$rule: #e6e8eb;
+
+body {
+  color: $ink;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Inter",
+               "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-feature-settings: "kern", "liga", "calt";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.6;
+}
+
+#main {
+  max-width: 1100px;
+}
+
+.page__content {
+  font-size: 16.5px;
+  line-height: 1.7;
+  color: $ink;
+
+  p, li {
+    color: $ink;
+  }
+
+  a {
+    color: $accent-color;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.15s ease, color 0.15s ease;
+
+    &:hover {
+      color: darken($accent-color, 10%);
+      border-bottom-color: $accent-color;
+      text-decoration: none;
+    }
+  }
+
+  h2 {
+    margin-top: 2.2em;
+    padding-bottom: 0.35em;
+    font-size: 1.35em;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    color: $ink;
+    border-bottom: 1px solid $rule;
+  }
+
+  h3 {
+    font-weight: 600;
+    letter-spacing: -0.005em;
+  }
+
+  /* News block: tighter list */
+  ul {
+    padding-left: 1.1em;
+
+    li {
+      margin-bottom: 0.55em;
+      line-height: 1.6;
+
+      &::marker {
+        color: $accent-color;
+      }
+    }
+  }
+
+  /* Publication entries: each <p> with a leading <b> link
+     gets a card-ish presentation with a subtle left rule */
+  p {
+    & > b:first-child {
+      display: inline;
+    }
+  }
+
+  /* Soften default code / blockquote */
+  blockquote {
+    border-left: 3px solid $accent-color;
+    background: $accent-color-soft;
+    padding: 0.6em 1em;
+    margin: 1.4em 0;
+    font-style: normal;
+    color: $ink;
+  }
+}
+
+/* Publication-list styling — applied via wrapper class .pub-list */
+.pub-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0.5em 0 1.5em;
+
+  li {
+    position: relative;
+    padding: 0.65em 0 0.85em 0.9em;
+    margin-bottom: 0.25em;
+    border-left: 2px solid $rule;
+    transition: border-color 0.15s ease, background 0.15s ease;
+    line-height: 1.55;
+
+    &:hover {
+      border-left-color: $accent-color;
+      background: rgba($accent-color, 0.035);
+    }
+
+    .pub-title {
+      font-weight: 600;
+      color: $ink;
+    }
+
+    .pub-authors {
+      color: $muted;
+      font-size: 0.95em;
+    }
+
+    .pub-venue {
+      display: inline-block;
+      margin-top: 0.15em;
+      font-size: 0.85em;
+      color: $muted;
+      font-style: italic;
+
+      .badge {
+        font-style: normal;
+        font-weight: 600;
+        color: $accent-color;
+      }
+    }
+
+    .pub-links {
+      margin-left: 0.25em;
+      font-size: 0.85em;
+
+      a {
+        margin-right: 0.4em;
+        color: $accent-color;
+        border-bottom: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    em.pub-self {
+      font-style: normal;
+      font-weight: 600;
+      color: $ink;
+      border-bottom: 1px dotted $accent-color;
+    }
+  }
+}
+
+/* News list styling */
+.news-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0.5em 0 1.5em;
+
+  li {
+    position: relative;
+    padding: 0.45em 0 0.45em 1.1em;
+    border-bottom: 1px solid $rule;
+    line-height: 1.55;
+
+    &:last-child { border-bottom: none; }
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0.95em;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: $accent-color;
+    }
+
+    .news-date {
+      display: inline-block;
+      min-width: 5.5em;
+      margin-right: 0.6em;
+      color: $muted;
+      font-variant-numeric: tabular-nums;
+      font-size: 0.9em;
+    }
+  }
+}
+
+/* Sidebar / author profile polish */
+.author__avatar img {
+  border-radius: 50%;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.author__name {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.author__bio {
+  color: $muted;
+  font-size: 0.92em;
+  line-height: 1.5;
+}
+
+.author__urls {
+  a {
+    color: $ink;
+    transition: color 0.15s ease;
+
+    &:hover {
+      color: $accent-color;
+    }
+  }
+}
+
+.btn--inverse {
+  display: none; /* hide stray "Follow" button */
+}
+
+/* Masthead polish */
+.masthead {
+  border-bottom: 1px solid $rule;
+}
+
+.greedy-nav {
+  background: #fff;
+
+  a {
+    color: $ink;
+    font-weight: 500;
+
+    &:hover {
+      color: $accent-color;
+    }
+  }
+
+  .site-title {
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+}
+
+/* Page title */
+.page__title {
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  color: $ink;
+}
