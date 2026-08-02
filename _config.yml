@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Hong Liu"
 title_separator          : "-"
 name                     : &name "Hong Liu"
-description              : &description "Pre-training researcher at Anthropic. Previously co-founder of Voyage AI."
+description              : &description "Pre-training researcher at an AI startup. Previously co-founder of Voyage AI."
 url                      : https://LiuHong99.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "LiuHong99/LiuHong99.github.io"
@@ -81,7 +81,7 @@ analytics:
 author:
   name             : "Hong Liu"
   avatar           : "hong.jpg"
-  bio              : "Pre-training @ Anthropic. Previously co-founder of Voyage AI."
+  bio              : "Pre-training @ AI startup. Previously co-founder of Voyage AI."
   location         : "Palo Alto, California"
   employer         :
   googlescholar    : "https://scholar.google.com/citations?user=BUc2uq0AAAAJ"
