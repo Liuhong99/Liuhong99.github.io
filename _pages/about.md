@@ -18,8 +18,6 @@ I did my PhD at Stanford University, affiliated with [Stanford AI Lab](https://a
 
 <ul class="news-list">
   <li><span class="news-date">Jul 2026</span><a href="https://haon-chen.github.io/MoCa/">MoCa</a> will appear at ACL 2026 as an <strong>Oral</strong> and <strong>SAC Highlight</strong>.</li>
-  <li><span class="news-date">Sep 2025</span>New paper — <a href="https://arxiv.org/abs/2509.15248">Synthetic Bootstrapped Pretraining</a>: the first synthetic pre-training method that doesn't rely on teacher distillation.</li>
-  <li><span class="news-date">Jun 2025</span><a href="https://haon-chen.github.io/MoCa/">MoCa</a> scales multimodal embedding models with unlabeled interleaved multimodal data.</li>
 </ul>
 
 ## Language Models
