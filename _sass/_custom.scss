@@ -10,7 +10,7 @@ $rule: #e6e8eb;
 
 body {
   color: $ink;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Inter",
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
                "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-feature-settings: "kern", "liga", "calt";
   -webkit-font-smoothing: antialiased;
@@ -45,13 +45,25 @@ body {
   }
 
   h2 {
+    position: relative;
     margin-top: 2.2em;
-    padding-bottom: 0.35em;
+    padding-bottom: 0.4em;
     font-size: 1.35em;
     font-weight: 600;
     letter-spacing: -0.01em;
     color: $ink;
     border-bottom: 1px solid $rule;
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -1px;
+      width: 2.6em;
+      height: 2px;
+      background: $accent-color;
+      border-radius: 2px;
+    }
   }
 
   h3 {
@@ -92,6 +104,25 @@ body {
   }
 }
 
+/* Research-interest tags under the intro */
+.interest-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin: 1em 0 0.5em;
+
+  span {
+    display: inline-block;
+    padding: 0.15em 0.75em;
+    border: 1px solid $rule;
+    border-radius: 999px;
+    background: #fafbfc;
+    color: $muted;
+    font-size: 0.85em;
+    font-weight: 500;
+  }
+}
+
 /* Publication-list styling — applied via wrapper class .pub-list */
 .pub-list {
   list-style: none;
@@ -122,30 +153,67 @@ body {
     }
 
     .pub-venue {
-      display: inline-block;
-      margin-top: 0.15em;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45em;
+      margin-top: 0.35em;
       font-size: 0.85em;
       color: $muted;
-      font-style: italic;
+      vertical-align: middle;
 
       .badge {
-        font-style: normal;
+        display: inline-block;
+        padding: 0.1em 0.6em;
+        border-radius: 999px;
+        background: $accent-color-soft;
+        color: darken($accent-color, 6%);
         font-weight: 600;
+        line-height: 1.5;
+        letter-spacing: 0.01em;
+      }
+
+      .badge-plain {
+        background: #f2f4f6;
+        color: $muted;
+        font-weight: 500;
+      }
+
+      .award {
+        display: inline-block;
+        padding: 0.1em 0.6em;
+        border: 1px solid rgba($accent-color, 0.4);
+        border-radius: 999px;
         color: $accent-color;
+        font-weight: 600;
+        line-height: 1.5;
       }
     }
 
     .pub-links {
-      margin-left: 0.25em;
-      font-size: 0.85em;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4em;
+      margin-left: 0.5em;
+      font-size: 0.8em;
+      vertical-align: middle;
 
       a {
-        margin-right: 0.4em;
-        color: $accent-color;
-        border-bottom: none;
+        display: inline-block;
+        padding: 0.1em 0.6em;
+        border: 1px solid $rule;
+        border-radius: 999px;
+        color: $muted;
+        font-weight: 500;
+        line-height: 1.5;
+        border-bottom-width: 1px;
+        transition: color 0.15s ease, border-color 0.15s ease,
+                    background 0.15s ease;
 
         &:hover {
-          text-decoration: underline;
+          color: $accent-color;
+          border-color: rgba($accent-color, 0.45);
+          background: rgba($accent-color, 0.05);
+          text-decoration: none;
         }
       }
     }

@@ -8,13 +8,18 @@ redirect_from:
   - /about.html
 ---
 
-I work on pre-training at [Anthropic](https://www.anthropic.com). Previously, I co-founded [Voyage AI](https://www.voyageai.com) and led its research to develop the best embeddings models and rerankers for semantic search and information retrieval in the industry. I did my PhD at Stanford University, affiliated with [Stanford AI Lab](https://ai.stanford.edu) and the [Stanford NLP Group](https://nlp.stanford.edu). My research interests broadly lie in synthetic data, multimodal learning, and reasoning.
+I work on pre-training at an AI startup. Previously, I co-founded [Voyage AI](https://www.voyageai.com) and led its research to develop the best embeddings models and rerankers for semantic search and information retrieval in the industry.
+
+I did my PhD at Stanford University, affiliated with [Stanford AI Lab](https://ai.stanford.edu) and the [Stanford NLP Group](https://nlp.stanford.edu).
+
+<p class="interest-tags"><span>synthetic data</span><span>multimodal learning</span><span>reasoning</span></p>
 
 ## News
 
 <ul class="news-list">
-  <li><span class="news-date">2025</span>New paper — <a href="https://arxiv.org/abs/2509.15248">Synthetic Bootstrapped Pretraining</a>: the first synthetic pre-training method that doesn't rely on teacher distillation.</li>
-  <li><span class="news-date">2025</span><a href="https://haon-chen.github.io/MoCa/">MoCa</a> scales multimodal embedding models with unlabeled interleaved multimodal data.</li>
+  <li><span class="news-date">Jul 2026</span><a href="https://haon-chen.github.io/MoCa/">MoCa</a> will appear at ACL 2026 as an <strong>Oral</strong> and <strong>SAC Highlight</strong>.</li>
+  <li><span class="news-date">Sep 2025</span>New paper — <a href="https://arxiv.org/abs/2509.15248">Synthetic Bootstrapped Pretraining</a>: the first synthetic pre-training method that doesn't rely on teacher distillation.</li>
+  <li><span class="news-date">Jun 2025</span><a href="https://haon-chen.github.io/MoCa/">MoCa</a> scales multimodal embedding models with unlabeled interleaved multimodal data.</li>
 </ul>
 
 ## Language Models
@@ -31,7 +36,7 @@ I work on pre-training at [Anthropic](https://www.anthropic.com). Previously, I 
   <li>
     <span class="pub-title"><a href="https://arxiv.org/abs/2506.23115">MoCa: Modality-aware Continual Pre-training Makes Better Bidirectional Multimodal Embeddings</a></span><br>
     <span class="pub-authors">Haonan Chen, <em class="pub-self">Hong Liu</em>, Yuping Luo, Liang Wang, Nan Yang, Furu Wei, Zhicheng Dou.</span><br>
-    <span class="pub-venue"><span class="badge">ACL 2026</span> · Oral</span>
+    <span class="pub-venue"><span class="badge">ACL 2026</span><span class="award">Oral</span><span class="award">SAC Highlight</span></span>
     <span class="pub-links">
       <a href="https://github.com/haon-chen/MoCa">Code</a>
       <a href="https://x.com/hongliu9903/status/1940084337497793014?s=46">Twitter</a>
@@ -57,7 +62,7 @@ I work on pre-training at [Anthropic](https://www.anthropic.com). Previously, I 
   <li>
     <span class="pub-title"><a href="https://arxiv.org/pdf/2210.14199">Same Pre-training Loss, Better Downstream: Implicit Bias Matters for Language Models</a></span><br>
     <span class="pub-authors"><em class="pub-self">Hong Liu</em>, Sang Michael Xie, Zhiyuan Li, Tengyu Ma.</span><br>
-    <span class="pub-venue"><span class="badge">ICML 2023</span> · Oral</span>
+    <span class="pub-venue"><span class="badge">ICML 2023</span><span class="award">Oral</span></span>
     <span class="pub-links">
       <a href="https://github.com/Liuhong99/implicitbiasmlmcode">Code</a>
       <a href="https://twitter.com/tengyuma/status/1593328919624617985">Twitter</a>
@@ -66,7 +71,7 @@ I work on pre-training at [Anthropic](https://www.anthropic.com). Previously, I 
   <li>
     <span class="pub-title"><a href="https://arxiv.org/pdf/2110.05025">Self-supervised Learning is More Robust to Dataset Imbalance</a></span><br>
     <span class="pub-authors"><em class="pub-self">Hong Liu</em>, Jeff Z. HaoChen, Adrien Gaidon, Tengyu Ma.</span><br>
-    <span class="pub-venue"><span class="badge">ICLR 2022</span> · Spotlight</span>
+    <span class="pub-venue"><span class="badge">ICLR 2022</span><span class="award">Spotlight</span></span>
     <span class="pub-links">
       <a href="https://github.com/Liuhong99/Imbalanced-SSL">Code</a>
       <a href="https://twitter.com/tengyuma/status/1448335906524606464">Twitter</a>
@@ -93,17 +98,17 @@ I work on pre-training at [Anthropic](https://www.anthropic.com). Previously, I 
   <li>
     <span class="pub-title"><a href="https://arxiv.org/pdf/2011.01418">Meta-learning Transferable Representations with a Single Target Domain</a></span><br>
     <span class="pub-authors"><em class="pub-self">Hong Liu</em>, Jeff Z. HaoChen, Colin Wei, Tengyu Ma.</span><br>
-    <span class="pub-venue">ArXiv 2011.01418</span>
+    <span class="pub-venue"><span class="badge badge-plain">arXiv 2020</span></span>
   </li>
   <li>
     <span class="pub-title"><a href="https://arxiv.org/pdf/1909.12031">Towards Understanding the Transferability of Deep Representations</a></span><br>
     <span class="pub-authors"><em class="pub-self">Hong Liu</em>, Mingsheng Long, Jianmin Wang, Michael Jordan.</span><br>
-    <span class="pub-venue">ArXiv 1909.12031</span>
+    <span class="pub-venue"><span class="badge badge-plain">arXiv 2019</span></span>
   </li>
   <li>
     <span class="pub-title"><a href="http://proceedings.mlr.press/v97/liu19b/liu19b.pdf">Transferable Adversarial Training: A General Approach to Adapting Deep Classifiers</a></span><br>
     <span class="pub-authors"><em class="pub-self">Hong Liu</em>, Mingsheng Long, Jianmin Wang, Michael Jordan.</span><br>
-    <span class="pub-venue"><span class="badge">ICML 2019</span> · Long Talk</span>
+    <span class="pub-venue"><span class="badge">ICML 2019</span><span class="award">Long Talk</span></span>
     <span class="pub-links">
       <a href="https://github.com/Liuhong99/Transferable-Adversarial-Training">Code</a>
     </span>
