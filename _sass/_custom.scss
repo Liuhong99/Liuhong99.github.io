@@ -104,25 +104,6 @@ body {
   }
 }
 
-/* Research-interest tags under the intro */
-.interest-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5em;
-  margin: 1em 0 0.5em;
-
-  span {
-    display: inline-block;
-    padding: 0.15em 0.75em;
-    border: 1px solid $rule;
-    border-radius: 999px;
-    background: #fafbfc;
-    color: $muted;
-    font-size: 0.85em;
-    font-weight: 500;
-  }
-}
-
 /* Publication-list styling — applied via wrapper class .pub-list */
 .pub-list {
   list-style: none;

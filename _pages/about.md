@@ -12,7 +12,7 @@ I work on pre-training at an AI startup. Previously, I co-founded [Voyage AI](ht
 
 I did my PhD at Stanford University, affiliated with [Stanford AI Lab](https://ai.stanford.edu) and the [Stanford NLP Group](https://nlp.stanford.edu).
 
-<p class="interest-tags"><span>synthetic data</span><span>multimodal learning</span><span>reasoning</span></p>
+<p class="interests-line">My research interests broadly lie in synthetic data, multimodal learning, and reasoning.</p>
 
 ## News
 
